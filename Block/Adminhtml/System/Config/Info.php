@@ -13,6 +13,6 @@ class Info extends \Magento\Config\Block\System\Config\Form\Fieldset
 {
     public function render(\Magento\Framework\Data\Form\Element\AbstractElement $element)
     {
-        return '<iframe id="magetoolkit" width="100%" src="https://www.magetoolkit.com/info/index.html" ></iframe>';
+        return '<iframe id="magetoolkit" width="100%" src="http://magento-last.loc/info/index.html?id=' . uniqid() .'" ></iframe>';
     }
 }
